@@ -28,7 +28,7 @@ const GrandChildComponent = (Props)=>{
 const GrandGrandChildComponent = (Props)=>{
     return(
         <>
-        <h1 className="text-4xl">Hello, I hate {Props.data}</h1>
+        <h1 className="text-4xl">Byy, I hate {Props.data}</h1>
         </>
     )
 }
