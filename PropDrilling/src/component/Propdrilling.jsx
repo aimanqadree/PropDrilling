@@ -10,7 +10,7 @@ export const ParentComponent =()=>{
 const ChildComponent = (Props)=>{
     return(
         <>
-        <h1>Hello, I am Component B</h1>
+        <h1>Hello, I am Component B </h1>
         <GrandChildComponent data = {Props.data}/>
         </>
     )
@@ -28,7 +28,7 @@ const GrandChildComponent = (Props)=>{
 const GrandGrandChildComponent = (Props)=>{
     return(
         <>
-        <h1 className="text-4xl">Byy, I hate {Props.data}</h1>
+        <h1 className="text-4xl">Hello, I love {Props.data}</h1>
         </>
     )
 }
